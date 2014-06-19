@@ -26,7 +26,7 @@ git init
 git add .
 git commit -am "initial commit"
 heroku create my-roots-app
-heroku config:set BUILDPACK_URL=https://github.com/carrot/roots-buildpack.git
+heroku config:set BUILDPACK_URL=https://github.com/tmilewski/roots-buildpack.git
 git push heroku master
 heroku open
 ```
